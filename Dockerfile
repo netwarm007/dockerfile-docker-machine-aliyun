@@ -13,4 +13,4 @@ RUN \
  go install github.com/denverdino/docker-machine-driver-aliyunecs && \
  export PATH=$GOPATH/bin:$PATH
 
-ENTRYPOINT docker-machine create -d aliyunecs --help "$@"
+ENTRYPOINT docker-machine create -d aliyunecs "$@"
