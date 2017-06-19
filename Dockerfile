@@ -9,8 +9,8 @@ RUN \
 
 RUN \
  cd $GOPATH && \
- go get -d github.com/denverdino/docker-machine-driver-aliyunecs && \
- go install github.com/denverdino/docker-machine-driver-aliyunecs 
+ go get -d github.com/AliyunContainerService/docker-machine-driver-aliyunecs && \
+ go install github.com/AliyunContainerService/docker-machine-driver-aliyunecs 
 
 COPY ./entry_point.sh /
 
